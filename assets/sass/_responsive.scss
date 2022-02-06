@@ -1,10 +1,4 @@
 @media (min-width: 769)and (max-width: 992px) { 
-    body{
-        background-color: gray;
-    }
-    .navbar button{
-        margin-right: 10px;
-    }
 
     #banner-part {
         h4 {
@@ -179,7 +173,7 @@
 }
 @media (min-width: 218px)and (max-width: 600px) { 
     .navbar{ 
-        // width: 90%;
+        width: 90%;
         button{
         margin-right: 10px;
         }
