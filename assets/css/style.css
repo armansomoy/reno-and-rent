@@ -10,7 +10,8 @@
   scrollbar-width: thin; }
 
 ::-webkit-scrollbar {
-  width: 5px; }
+  width: 5px;
+  color: aqua; }
 
 html,
 body {
@@ -257,5 +258,64 @@ ol {
       transition: all .3s; }
       #footer-part .lower-part ul li i:hover {
         color: red; }
+
+@media (min-width: 218px) and (max-width: 516px) {
+  .navbar button {
+    margin-right: 10px; }
+
+  #banner-part h4 {
+    font-size: 18px; }
+  #banner-part h2 {
+    font-size: 40px; }
+  #banner-part p {
+    font-size: 16px;
+    padding-bottom: 40px; }
+  #banner-part a {
+    padding: 12px 25px; }
+
+  #service-part .section-title h2::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 39%;
+    height: 5px;
+    width: 70px;
+    background-color: red; }
+
+  #service-part .service-texts .service-texts-box {
+    padding: 40px 0px 50px;
+    text-align: center; }
+
+  #service-part .service-texts .service-texts-box::after {
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    top: 0px;
+    left: 49%; }
+
+  #service-part .service-texts::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 39%;
+    height: 5px;
+    width: 70px;
+    background-color: red; }
+
+  #contact-part img {
+    height: 400px;
+    padding: 0px 70px; }
+
+  #contact-part .form-part input {
+    width: 330px;
+    margin-bottom: 20px; }
+
+  #contact-part .form-part textarea {
+    width: 330px; }
+
+  #contact-part .form-part button {
+    left: 30%; } }
 
 /*# sourceMappingURL=style.css.map */
