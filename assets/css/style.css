@@ -1,0 +1,105 @@
+/* Reset CSS */
+@font-face {
+  font-family: 'Explora';
+  src: url(../fonts/Explora.ttf); }
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: none; }
+
+* {
+  scrollbar-width: thin; }
+
+::-webkit-scrollbar {
+  width: 5px; }
+
+html,
+body {
+  scroll-behavior: smooth;
+  padding-bottom: 300px;
+  font-family: 'Open Sans'; }
+
+/* Change text & background color */
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit; }
+
+button,
+button:hover,
+button:focus,
+button:active {
+  outline: none; }
+
+img {
+  vertical-align: middle; }
+
+ul,
+ol {
+  list-style: none; }
+
+/* Footer Style */
+.footer .copyright {
+  font-size: 0.8rem; }
+  .footer .copyright__link:hover, .footer .copyright__link:focus {
+    text-decoration: underline #ddb180; }
+
+#banner-part {
+  padding: 100px;
+  background-color: #332D2D;
+  position: relative;
+  height: 700px; }
+  #banner-part::after {
+    position: absolute;
+    content: '';
+    bottom: -285px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/section-services/mountain\ fading.png);
+    background-repeat: no-repeat;
+    background-size: center;
+    background-position: center; }
+  #banner-part h4 {
+    font-size: 20px;
+    color: #fff;
+    padding-top: 120px; }
+  #banner-part h2 {
+    font-size: 46px;
+    color: #fff;
+    padding-bottom: 20px;
+    font-family: 'Explora'; }
+  #banner-part p {
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 60px; }
+  #banner-part a {
+    font-size: 13px;
+    background-color: red;
+    padding: 16px 26px;
+    color: #fff;
+    border-radius: 15px;
+    text-transform: uppercase; }
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  top: 15px;
+  left: 0;
+  line-height: 60px; }
+  .navbar .container {
+    background-color: #fff; }
+  .navbar img {
+    height: 70px; }
+  .navbar .navbar-nav .nav-link {
+    color: #2c2c2c;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0px 16px; }
+
+/*# sourceMappingURL=style.css.map */
