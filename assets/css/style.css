@@ -161,8 +161,10 @@ ol {
       background-color: #332D2D;
       color: #fff;
       padding: 30px;
-      height: 246px;
-      width: 370px; }
+      height: 233px;
+      width: 347px; }
+    #service-part .service-boxes img {
+      width: 100%; }
 
 #contact-part {
   padding: 100px 0;
@@ -481,6 +483,9 @@ ol {
     left: 30%; }
 
   #footer-part::after {
-    left: 40%; } }
+    left: 40%; }
+
+  #service-part .service-boxes .service-box-text {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -178,8 +178,11 @@
     }
 }
 @media (min-width: 218px)and (max-width: 600px) { 
-    .navbar button{
+    .navbar{ 
+        // width: 90%;
+        button{
         margin-right: 10px;
+        }
     }
 
     #banner-part {
@@ -246,5 +249,9 @@
     }
     #footer-part::after {
         left: 40%;
+    }
+
+    #service-part .service-boxes .service-box-text {
+        width: 100%;
     }
 }
