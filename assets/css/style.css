@@ -1,7 +1,4 @@
 /* Reset CSS */
-@font-face {
-  font-family: 'Explora';
-  src: url(../fonts/Explora.ttf); }
 *,
 *::before,
 *::after {
@@ -19,7 +16,7 @@ html,
 body {
   scroll-behavior: smooth;
   padding-bottom: 300px;
-  font-family: 'Open Sans'; }
+  font-family: 'Montserrat', sans-serif; }
 
 /* Change text & background color */
 a,
@@ -70,16 +67,17 @@ ol {
   #banner-part h2 {
     font-size: 46px;
     color: #fff;
-    padding-bottom: 20px;
-    font-family: 'Explora'; }
+    font-weight: 700;
+    padding-bottom: 20px; }
   #banner-part p {
     font-size: 20px;
     color: #fff;
-    padding-bottom: 60px; }
+    padding-bottom: 60px;
+    font-weight: 400; }
   #banner-part a {
     font-size: 13px;
     background-color: red;
-    padding: 16px 26px;
+    padding: 12px 30px;
     color: #fff;
     border-radius: 15px;
     text-transform: uppercase; }
@@ -98,8 +96,108 @@ ol {
   .navbar .navbar-nav .nav-link {
     color: #2c2c2c;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     padding: 0px 16px; }
+
+#service-part {
+  padding: 100px 0px; }
+  #service-part .section-title h2 {
+    font-size: 36px;
+    color: #2c2c2c;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative; }
+    #service-part .section-title h2::after {
+      content: '';
+      position: absolute;
+      bottom: -20px;
+      left: 46%;
+      height: 5px;
+      width: 70px;
+      background-color: red; }
+  #service-part .service-texts {
+    padding: 80px 0px;
+    position: relative; }
+    #service-part .service-texts .service-texts-box {
+      padding: 0px 0px 0px 40px;
+      color: #2c2c2c;
+      position: relative; }
+      #service-part .service-texts .service-texts-box h4 {
+        font-size: 20px;
+        font-weight: 500; }
+      #service-part .service-texts .service-texts-box p {
+        font-size: 16px;
+        font-weight: 400; }
+      #service-part .service-texts .service-texts-box::after {
+        position: absolute;
+        content: '';
+        height: 20px;
+        width: 20px;
+        background-color: red;
+        top: 15px;
+        left: 0; }
+    #service-part .service-texts::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 46%;
+      height: 5px;
+      width: 70px;
+      background-color: red; }
+  #service-part .service-boxes {
+    padding: 50px 0; }
+    #service-part .service-boxes .service-box {
+      margin-bottom: 20px; }
+    #service-part .service-boxes .service-box-text {
+      background-color: #332D2D;
+      color: #fff;
+      padding: 30px;
+      height: 246px;
+      width: 370px; }
+
+#contact-part {
+  padding: 100px 0;
+  background-color: rgba(240, 254, 255, 0.829); }
+  #contact-part .section-title h2 {
+    font-size: 50px;
+    color: #2c2c2c;
+    font-weight: 600;
+    text-align: center;
+    padding: 60px 0; }
+  #contact-part img {
+    height: 550px; }
+  #contact-part .form-part {
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 30px;
+    position: relative; }
+    #contact-part .form-part input {
+      color: #2c2c2c9e;
+      border: none;
+      padding: 7px 15px;
+      font-weight: 600;
+      width: 264px;
+      margin-right: 10px; }
+    #contact-part .form-part textarea {
+      color: #2c2c2c9e;
+      border: none;
+      padding: 7px 15px;
+      font-weight: 600;
+      width: 550px;
+      height: 100px;
+      margin-right: 10px; }
+    #contact-part .form-part button {
+      font-size: 16px;
+      border: none;
+      background-color: red;
+      padding: 12px 30px;
+      color: #fff;
+      border-radius: 5px;
+      font-weight: 500;
+      position: absolute;
+      bottom: -24px;
+      left: 39%; }
 
 /*# sourceMappingURL=style.css.map */

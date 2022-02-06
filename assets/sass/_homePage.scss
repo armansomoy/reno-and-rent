@@ -26,25 +26,25 @@
     h2{
         font-size: 46px;
         color: #fff;
+        font-weight: 700;
         padding-bottom: 20px;
-        font-family: 'Explora';
     }
     p{
         font-size: 20px;
         color: #fff;
         padding-bottom: 60px;
+        font-weight: 400;
     }
     a{
         font-size: 13px;
         background-color: red;
-        padding: 16px 26px;
+        padding: 12px 30px;
         color: #fff;
         border-radius: 15px;
         text-transform: uppercase;
     }
 }
 // banner-part ends
-
 
 // navbar start
 .navbar{
@@ -65,10 +65,152 @@
    .navbar-nav .nav-link {
         color: #2c2c2c;
         text-transform: uppercase;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 16px;
         padding: 0px 16px;
     }
 }
 // navbar ends
+
+
+// service-part start
+#service-part{
+    padding: 100px 0px;
+
+    .section-title{
+        h2{
+            font-size: 36px;
+            color: #2c2c2c;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 600;
+            position: relative;
+
+            &::after{
+                content: '';
+                position: absolute;
+                bottom: -20px;
+                left: 46%;
+                height: 5px;
+                width: 70px;
+                background-color: red;
+            }
+        }
+        
+    }
+    
+    .service-texts{
+        padding: 80px 0px; 
+        position: relative;
+
+        .service-texts-box{
+            padding: 0px 0px 0px 40px;
+            color: #2c2c2c;
+            position: relative;
+
+            h4{
+                font-size: 20px;
+                font-weight: 500;
+            }
+            p{
+                font-size: 16px;
+                font-weight: 400;
+            }
+
+            &::after{
+                position: absolute;
+                content: '';
+                height: 20px;
+                width: 20px;
+                background-color: red;
+                top: 15px;
+                left: 0;
+            }
+        }
+
+        &::after{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 46%;
+            height: 5px;
+            width: 70px;
+            background-color: red;
+        }
+    }
+
+    .service-boxes{
+        padding: 50px 0;
+        .service-box {
+            margin-bottom: 20px;
+        }
+
+        .service-box-text{
+            background-color: #332D2D;
+            color: #fff;
+            padding: 30px;
+            height: 246px;
+            width: 370px;
+        }
+    }
+}
+// service-part ends
+
+// contact-part start
+#contact-part{
+    padding: 100px 0;
+    background-color: rgba(240, 254, 255, 0.829);
+    .section-title{
+        h2{
+            font-size: 50px;
+            color: #2c2c2c;
+            font-weight: 600;
+            text-align: center;
+            padding: 60px 0;
+        }
+    }
+
+    img{
+        height: 550px;
+    }
+
+    .form-part{
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding: 30px;
+        position: relative;
+
+        input{
+            color: #2c2c2c9e;
+            border: none;
+            padding: 7px 15px;
+            font-weight: 600;
+            width: 264px;
+            margin-right: 10px;
+        }
+        textarea{
+            color: #2c2c2c9e;
+            border: none; 
+            padding: 7px 15px;
+            font-weight: 600;
+            width: 550px;
+            height: 100px;
+            margin-right: 10px;
+        }
+        button{
+            font-size: 16px;
+            border: none;
+            background-color: red;
+            padding: 12px 30px;
+            color: #fff;
+            border-radius: 5px;
+            font-weight: 500;
+            position: absolute;
+            bottom: -24px;
+            left: 39%;
+        }
+    }
+}
+
+// contact-part ends
 
