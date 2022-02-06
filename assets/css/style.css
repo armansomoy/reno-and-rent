@@ -471,11 +471,11 @@ ol {
     padding: 0px 70px; }
 
   #contact-part .form-part input {
-    width: 330px;
+    width: 100%;
     margin-bottom: 20px; }
 
   #contact-part .form-part textarea {
-    width: 330px; }
+    width: 100%; }
 
   #contact-part .form-part button {
     left: 30%; }
