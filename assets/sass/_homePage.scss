@@ -61,6 +61,8 @@
     top: 15px;
     left: 0;
     line-height: 60px;
+    position: fixed;
+    z-index: 999;
 
     .container{
         background-color: #fff;

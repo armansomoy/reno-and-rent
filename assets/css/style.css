@@ -93,7 +93,9 @@ ol {
   margin: 0 auto;
   top: 15px;
   left: 0;
-  line-height: 60px; }
+  line-height: 60px;
+  position: fixed;
+  z-index: 999; }
   .navbar .container {
     background-color: #fff; }
   .navbar img {
